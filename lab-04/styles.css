@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #e3e3e3;
+  width: 100px;
+align-items: center;
+}
+nav a{
+  background-color: #adadad;
+  color: black;
+  padding: 15px;
+  margin: 5px;
+  width: 55px;
+  transition: background-color 0.5s;
+}
+
+nav a:hover{
+background-color:  #cfcfcf
+}
+
+
+body{
+  background-color: #dbdbdb;
+  color: black;
+  padding: 10px;
+}
