@@ -1,4 +1,4 @@
-
+console.log("Hello!");
 "use strict";
 
 myHeight.addEventListener('input', ev => {
@@ -32,7 +32,7 @@ login.addEventListener('submit', ev => {
 	ev.preventDefault();
 });
 
-/*myQuery.addEventListener('input', ev => {
+myQuery.addEventListener('input', ev => {
 
 	for(const result of document.querySelectorAll('.hidden')) {
 		result.classList.remove('hidden');
@@ -48,4 +48,4 @@ login.addEventListener('submit', ev => {
 	for (const section of filteredSections) {
 		section.classList.add('hidden');
 	}
-});*/
+});
